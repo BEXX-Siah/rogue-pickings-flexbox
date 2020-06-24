@@ -83,7 +83,6 @@ nav ul li a{
 .bottom-section {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	flex-flow: row wrap;
 	flex-direction: column;
 
@@ -127,17 +126,20 @@ nav ul li a{
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
-	border-top: .063em solid #eee;
 }
 
-.section-two, .section-three h4 {
+.section-one h4	{
+	padding: 0 1.875em;
+}
+
+.section-two h4,
+.section-three h4 {
 	padding: .625em 1.875em;
 }
 
 .menu {
 	list-style: none;
-	padding: 0;
-	align-items:stretch;
+
 }
 .menu li {
 	padding: .625em 0;
