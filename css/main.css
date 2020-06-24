@@ -1,0 +1,170 @@
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container{
+	max-width: 1200px;
+	width: 90%
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 1.875em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+	font-size: 1.125em;
+}
+h4 {
+	font-size: .75em;
+}
+
+p {
+	font-size: .875em;
+  padding: 0 1.875em;
+}
+
+/*The widths are in a percentage!*/
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: .188em solid #77a466;
+}
+
+h1 span {
+	color: #77a466;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+
+}
+nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .875em;
+	padding: .625em;
+	display:flex;
+	justify-content: space-between;
+}
+nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	flex-direction: column;
+
+}
+
+.main-image {
+	display: flex;
+	justify-content: center;
+	align-items: center
+	width: auto;
+}
+
+.main-image img {
+	border-top: .188em solid #77a466;
+	border-bottom: .188em solid #77a466;
+	max-width: 90%;
+}
+
+.main-title h3 {
+	padding: .625em 1.875em;
+	color: #77a466;
+	max-width: 90%;
+	border-left: .063em;
+	border-right: .063em;
+}
+.main-title p {
+	padding: .625em 1.875em;
+	font-size: 1em;
+	line-height: 1.875em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row wrap;
+	max-width: 90%;
+}
+
+}
+.section-one,
+.section-two,
+.section-three {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	border-top: .063em solid #eee;
+}
+
+.section-two, .section-three h4 {
+	padding: .625em 1.875em;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+	align-items:stretch;
+}
+.menu li {
+	padding: .625em 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+}
+
+.address {
+	font-size: 1em;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	border-top: .188em solid #eee;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: .875em;
+}
