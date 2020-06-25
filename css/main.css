@@ -8,7 +8,7 @@ body {
 
 .container{
 	max-width: 1200px;
-	width: 90%
+	width: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -92,7 +92,7 @@ nav ul li a{
 .main-image {
 	display: flex;
 	justify-content: center;
-	align-items: center
+	align-items: center;
 	width: auto;
 }
 
@@ -113,14 +113,9 @@ nav ul li a{
 	padding: .625em 1.875em;
 	font-size: 1em;
 	line-height: 1.875em;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-flow: row wrap;
 	max-width: 90%;
 }
 
-}
 .section-one,
 .section-two,
 .section-three {
@@ -170,19 +165,4 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: .875em;
-}
-
-@media all and (min-width:768px) {
-    /* Tablet styles here */
-bottom-section		{
-
-}
-section-one
-section-two
-section-three
-}
-
-@media all and (min-width:1200px) {
-    /* Desktop styles here */
-
 }
