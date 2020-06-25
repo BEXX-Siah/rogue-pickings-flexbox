@@ -70,7 +70,7 @@ nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .875em;
-	padding: .625em;
+	padding: 0 0 .625em 0;
 	display:flex;
 	justify-content: space-between;
 }
@@ -167,3 +167,28 @@ footer span {
 	color: #77a466;
 	font-size: 1.25em;
 }
+
+@media all and (min-width:768px) {
+    /* Tablet styles here */
+.bottom-section	{
+display: flex;
+flex-flow: row nowrap;
+align-items: flex-start;
+}
+.section-one	{
+order: 1;
+width:33.3333%;
+}
+.section-two	{
+order: 2;
+width: 33.3333%;
+}
+.section-three	{
+order: 3;
+width: 33.3333%;
+}
+
+}
+
+@media all and (min-width:1200px) {
+    /* Desktop styles here */
